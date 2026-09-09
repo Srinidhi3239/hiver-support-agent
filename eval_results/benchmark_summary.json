@@ -1,0 +1,29 @@
+{
+  "trivial_baseline": {
+    "intent_accuracy": 0.0,
+    "intent_macro_f1": 0.0,
+    "action_routing_accuracy": 0.0,
+    "escalation_precision": 0.0,
+    "escalation_recall": 0.0
+  },
+  "simple_baseline": {
+    "intent_accuracy": 0.0333,
+    "intent_macro_f1": 0.0323,
+    "action_routing_accuracy": 0.0333,
+    "escalation_precision": 1.0,
+    "escalation_recall": 0.0333
+  },
+  "proposed_rag_agent": {
+    "intent_accuracy": 0.5333,
+    "intent_macro_f1": 0.3478,
+    "action_routing_accuracy": 0.4,
+    "escalation_precision": 1.0,
+    "escalation_recall": 0.4,
+    "llm_judge": {
+      "avg_tone": 4.03,
+      "avg_grounding": 4.03,
+      "avg_actionability": 4.03,
+      "human_judge_agreement_within_1pt": 1.0
+    }
+  }
+}
